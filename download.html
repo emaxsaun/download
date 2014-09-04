@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Download</title>
+</head>
+<body>
+<script type="text/javascript" src="http://p.jwpcdn.com/6/10/jwplayer.js"></script>
+<div id="player"></div>
+<script type="text/javascript">
+jwplayer("player").setup({
+	file: "http://content.bitsontherun.com/videos/i8oQD9zd-DZ7jSYgM.mp4",
+    image: "http://content.bitsontherun.com/thumbs/i8oQD9zd-640.jpg",
+	width: 720,
+	height: 480,
+	plugins: { 'download.js': {} }
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+(function(e){var t=function(e,t,n){function i(t){e.addButton("http://www.longtailvideo.com/sites/default/files/download.png","Download Media",r,"download")}var r=function(){var t=e.getPlaylistItem();document.location=t.file};e.onReady(i);this.resize=function(e,t){}};e().registerPlugin("download","6.0",t)})(jwplayer)
