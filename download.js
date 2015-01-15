@@ -6,7 +6,7 @@
 		};
 		function setup(evt){
 			player.addButton(
-				"http://www.longtailvideo.com/sites/default/files/download.png",
+				"http://www.pluginsbyethan.com/github/download.png",
 				"Download Media",
 				goDownload,
 				"download"
